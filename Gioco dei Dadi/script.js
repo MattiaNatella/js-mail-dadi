@@ -1,7 +1,8 @@
 let message = []
 let numeroPlayer = Math.ceil(Math.random() * 6);
-
-let numeroPc = Math.random() * 6;
+console.log(numeroPlayer)
+let numeroPc = Math.ceil(Math.random() * 6);
+console.log(numeroPc)
 
 if (numeroPlayer > numeroPc){
     message = 'HAI VINTO';

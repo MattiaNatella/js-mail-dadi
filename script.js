@@ -4,10 +4,10 @@ let inserisciMail = prompt('Inserisci qui la tua email')
 let message = '';
 
 let flag = false;
-
+let i = 0;
 
 while (!flag) {
-  let i = 0;
+  
   if (inserisciMail === listaEmail[i]){
       flag = true
       message = `l'indirizzo ${inserisciMail} è presente nelle mail validate`
